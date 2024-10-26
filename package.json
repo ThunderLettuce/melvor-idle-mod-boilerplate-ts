@@ -1,7 +1,7 @@
 {
-  "name": "melvor-idle-mod-boilerplate-ts",
+  "name": "what-it-worth",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mod to show what the item value is before crafting",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,9 +11,10 @@
     "buildzip": "webpack && node scripts/bundleHtml.js && node scripts/zip.js"
   },
   "keywords": [],
-  "author": "",
+  "author": ".Lettuce",
   "license": "MIT",
   "devDependencies": {
+    "melvor-types": "https://github.com/GamesByMalcsPtyLtd/Melvor-Typing-Project/tarball/bd5611f",
 		"@types/ifvisible": "^1.1.0",
 		"@types/ion-rangeslider": "^2.3.2",
     "@types/node": "^18.11.13",
